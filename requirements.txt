@@ -1,0 +1,8 @@
+coverage==5.5
+pylint==2.7.2
+pytest==6.2.5
+python-benedict
+python-dotenv
+BeneDict~=0.3.2
+pygraphml
+networkx==3.0

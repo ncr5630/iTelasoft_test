@@ -1,0 +1,98 @@
+{
+    "nodes": [{
+            "id": "A",
+            "type": "key",
+            "data": "Cabinet"
+        }, {
+            "id": "B",
+            "type": "key",
+            "data": "Pot"
+        }, {
+            "id": "C",
+            "type": "key",
+            "data": "Pot"
+        }, {
+            "id": "D",
+            "type": "key",
+            "data": "Pot"
+        }, {
+            "id": "E",
+            "type": "key",
+            "data": "Pot"
+        }, {
+            "id": "F",
+            "type": "key",
+            "data": "Chamber"
+        }, {
+            "id": "G",
+            "type": "key",
+            "data": "Chamber"
+        }, {
+            "id": "H",
+            "type": "key",
+            "data": "Chamber"
+        }, {
+            "id": "I",
+            "type": "key",
+            "data": "Chamber"
+        }
+    ],
+    "edges": [{
+            "source": "A",
+            "target": "F",
+            "data": {
+                "material": "verge",
+                "length": 50
+            }
+        }, {
+            "source": "B",
+            "target": "F",
+            "data": {
+                "material": "verge",
+                "length": 20
+            }
+        }, {
+            "source": "C",
+            "target": "G",
+            "data": {
+                "material": "road",
+                "length": 50
+            }
+        }, {
+            "source": "D",
+            "target": "H",
+            "data": {
+                "material": "road",
+                "length": 100
+            }
+        }, {
+            "source": "E",
+            "target": "H",
+            "data": {
+                "material": "verge",
+                "length": 50
+            }
+        }, {
+            "source": "F",
+            "target": "G",
+            "data": {
+                "material": "verge",
+                "length": 100
+            }
+        }, {
+            "source": "G",
+            "target": "I",
+            "data": {
+                "material": "road",
+                "length": 40
+            }
+        }, {
+            "source": "H",
+            "target": "G",
+            "data": {
+                "material": "road",
+                "length": 100
+            }
+        }
+    ]
+}

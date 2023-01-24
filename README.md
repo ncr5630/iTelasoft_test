@@ -3,7 +3,8 @@ step one "before_install_dependency.sh" in ubuntu terminal
 ```
     ./before_install_dependency.sh
 
-    if you installed dependency run this
+    
+    Run this if you want to run it a second time
     ./after_install_dependency.sh
 
 ```

@@ -1,5 +1,6 @@
 ## Cost calculating guidelines
-step one "before_install_dependency.sh" in ubuntu terminal
+step one 
+    Run "before_install_dependency.sh" in ubuntu terminal
 ```
     ./before_install_dependency.sh
 

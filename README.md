@@ -1,13 +1,13 @@
-## Run code guid line
-1.run before_install_dependency.sh in ubuntu terminal
+## Cost calculating guidelines
+step one "before_install_dependency.sh" in ubuntu terminal
 ```
-./before_install_dependency.sh
+    ./before_install_dependency.sh
 
-if you installed dependency run this
-./after_install_dependency.sh
+    if you installed dependency run this
+    ./after_install_dependency.sh
 
 ```
-2.enter necessary values for input
+step two enter necessary values for input
 ```
 eg
     cabinet_cost = 1000
@@ -16,14 +16,14 @@ eg
     chamber_cost = 200
     port_cost = 100
 ```
-3.you will get the result
+step three you will get final cost for "Rate Card A"
 
-4.if you need to change "pot" cost calculate with cabinet length then you need to changed .env
+## if you need to calculate "Rate Card B" changed .env
 ```
 POT_COST_CALCULATE_DYNAMIC = True
 ```
-## Unit test guide
-1. go to project folder and just run "code_test_n_coverage.sh"
+## unit-test guidance
+go to project folder and just run "code_test_n_coverage.sh"
 ```
 ./code_test_n_coverage.sh
 

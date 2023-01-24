@@ -7,7 +7,9 @@ step one "before_install_dependency.sh" in ubuntu terminal
     ./after_install_dependency.sh
 
 ```
+
 step two enter necessary values for input
+
 ```
 eg
     cabinet_cost = 1000
